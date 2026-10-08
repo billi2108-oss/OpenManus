@@ -10,4 +10,5 @@ COPY . .
 
 RUN uv pip install --system -r requirements.txt
 
-CMD ["bash"]
+//CMD ["bash"]
+CMD ["python", "-u", "handler.py"]
